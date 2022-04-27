@@ -18,16 +18,29 @@
         android:padding="16dp"
         android:textSize="24sp"
         android:textStyle="bold"
-        android:text="¿How old are you?"
-       />
+        android:text="¿How old are you?" />
 
     <EditText
+        android:id="@+id/age_edit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="16dp"
+        android:inputType="number"
         android:hint="Your age"/>
 
+    <TextView
+        android:id="@+id/result_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+
+        />
+
     <Button
+        android:id="@+id/btn_calcular"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="16dp"
