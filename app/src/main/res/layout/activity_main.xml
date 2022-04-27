@@ -10,21 +10,22 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:adjustViewBounds="true"
-        android:src="@drawable/ic_launcher_background"/>
+        android:src="@drawable/daggyimg"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="16dp"
         android:textSize="24sp"
-        android:text="¿cuantos años tienes?"
+        android:textStyle="bold"
+        android:text="¿How old are you?"
        />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="16dp"
-        android:hint="Tu edad"/>
+        android:hint="Your age"/>
 
     <Button
         android:layout_width="match_parent"
