@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">EdadCanina</string>
+    <string name="how_old_are_u">¿How old are you?</string>
+    <string name="your_age">Your age</string>
+    <string name="calculate">Calculate</string>
+    <string name="insert_age">Hey insert your age!</string>
+    <string name="result_text">Your dog age is %d years old </string>
 </resources>
